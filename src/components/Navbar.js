@@ -11,7 +11,12 @@ import {ButtonContainer} from './Button'
     render() {
         return (
             <NavWrapper className="nav navbar-dark  navbar-expands-sm px-sm-5">
+
                     <Link to='/' >
+                        {/* 
+                        https://www.iconfinder.com/icons/1243689/call_phone_icon
+                        Creative Commons (Attribution 3.0 Unported);
+                        https://www.iconfinder.com/Makoto_msk */}
                         <img src={logo} alt='store' className='navbar-brand' />
                     </Link>
 
