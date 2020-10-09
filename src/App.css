@@ -1,0 +1,77 @@
+/* variables initialization */
+:root{
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+
+/* Fonts-importing */
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald'), url(./fonts/Oswald/Oswald-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PermanentMarker';
+  src: local('PermanentMarker'), url( ./fonts/PermanentMarker/PermanentMarker-Regular.ttf) format('truetype');
+}
+
+/* Tags-styling */
+
+body {
+  margin: 0;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+  font-family: Oswald, sans-serif !important ;
+}
+
+.text-title{
+  font-family: 'PermanentMarker', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue{
+  color: var(--mainBlue);
+}
+
+.text-light{
+  color: var(--lightBlue);
+}
+
+.text-center{
+  text-align: center;
+}
+
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0;
+  border: 0.1rem var(--mainDark) solid !important;
+}
+
+.btn-black:hover{
+  background: var(--mainDark) !important ;
+  color: var(--mainWhite) !important ;
+}
+
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem ;
+  color: var(--mainYellow);
+}
+
+.cart-icon:hover{
+  background: var(--mainYellow);
+  font-size: 1.2rem ;
+  color: var(--mainBlue);
+  border:0.1rem var(--mainBlue) solid !important;
+  border-radius: 0.3rem;
+  padding: 0.2rem;
+}
+
